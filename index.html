@@ -34,6 +34,14 @@
 
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7&appId=563807397007354";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <div class="ribbon left orange">
       <a href="https://github.com/alexlbr/learn-react-posts-and-videos">Fork me on GitHub</a>
     </div>
@@ -43,11 +51,30 @@
           Learn React
         </h1>
         <h2>
-          A curated list of awesome posts and videos to learn React on your own.
+          An awesome list of posts and videos to learn React on your own.
         </h2>
         <p>
           These page is a collection of links that will help you learn Reat. Some of them may look "old" (which in React and JavaScript in general it means 1 year), but if they are still here it's because they explain important principales or concepts. If you know more interesting articles and videos that are worth sharing, please do a pull request and add them to the list.
         </p>
+        <ul class="text-center list-unstyled list-inline">
+          <li>
+            <a href="https://twitter.com/intent/tweet?button_hashtag=learn-react" class="twitter-hashtag-button" data-text="An awesome list of posts and videos to learn React on your own" data-url="http://learn-react.com/" data-related="alex_lobera" data-show-count>Tweet #learn-react</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </li>
+          <li>
+            <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+            <script type="IN/Share" data-url="http://learn-react.com/" data-counter="right"></script>
+          </li>
+          <li>
+            <div class="fb-share-button pull-left" data-href="http://learn-react.com/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flearn-react.com%2F&amp;src=sdkpreparse">Share</a></div>
+          </li>
+          <li>
+            <!-- Place this tag in your head or just before your close body tag. -->
+            <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+            <!-- Place this tag where you want the share button to render. -->
+            <div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://learn-react.com/"></div>
+          </li>
+        </ul>
       </div>
     </div>
 
